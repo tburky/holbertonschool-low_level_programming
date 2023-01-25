@@ -1,14 +1,18 @@
-/* This will print a specific line requested by assignment */
+/*
+ * file: 4-puts.c
+ * Auth: Tanner Burkybile <tanner.burkybile@gmail.com>
+ */
+
 #include <stdio.h>
-/* main - Entry point
- * This will print a specific text using puts command in c
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
-/* This will take a char string and puts it */
 {
-	char Mystr[] = "\"Programming is like building a multilingual puzzle\n";
-	
-	puts(Mystr);
+puts("\"Programming is like building a multlingual puzzle"
 
-		return (0);
+return (0);
 }
