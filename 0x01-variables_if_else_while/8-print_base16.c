@@ -1,6 +1,6 @@
 
 /*
- * file: 7-print_tebahpla.c
+ * file: 8-print_base16.c
  * Auth: Tanner Burkybile <tanner.burkybile@gmail.com>
  */
 
@@ -16,10 +16,14 @@
 int main(void)
 {
 	int n;
-{
-	for (n = 'z' ; n >= 'a' ; n--)
+	char ch;
+
+	for (n = '0' ; n <= '9' ; n++)
 	putchar(n);
-}
+
+	for (ch = 'a' ; ch <= 'f' ; ch++)
+	putchar(ch);
+
 	putchar (10);
 
 	return (0);
