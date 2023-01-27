@@ -1,14 +1,10 @@
-/*
- * file: 3-islower.c
- * Auth: Tanner Burkybile <tanner.burkybile@gmail.com>
- */
 
 #include <stdio.h>
 #include "main.h"
 
 /**
  * _islower - Entry point
- * Description: c = lowercase letters
+ * @c
  * Return: Always 0 (Success)
  */
 int _islower(int c)
