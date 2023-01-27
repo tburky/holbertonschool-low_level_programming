@@ -2,20 +2,20 @@
  * file: 1-alphabet.c
  * Auth: Tanner Burkybile <tanner.burkybile@gmail.com>
  */
-#include <stdio.h>
 #include "main.h"
 
 /**
- * print_alphabet - Entry point
- *
- * Return: Always 0 (Success)
+ * print_alphabet - Prints alphabet a-z
+ * Description: prints alphabet
+ * Return: always 0;
  */
 void print_alphabet(void)
 {
-	char ch;
+	char x;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++)
-	_putchar(ch);
-
-	_putchar(10);
+	for (x = 'a' ; x <= 'z' ; x++)
+	{
+		_putchar(x);
+	}
+	_putchar('\n');
 }
