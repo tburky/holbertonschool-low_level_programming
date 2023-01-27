@@ -8,7 +8,7 @@
 
 /**
  * _islower - Entry point
- * Description: islower c
+ * Description: c = lowercase letters
  * Return: Always 0 (Success)
  */
 int _islower(int c)
