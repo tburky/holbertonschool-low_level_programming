@@ -8,7 +8,7 @@
 #include <math.h>
 
 /**
-* _abs - print sign of number
+* print_last_digit - last digit
 * @n: a set variable
 * @nn:
 * Description: absolute value
