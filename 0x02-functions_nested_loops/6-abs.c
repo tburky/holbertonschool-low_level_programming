@@ -16,7 +16,7 @@
 */
 int _abs(int n)
 {
-int ans = _abs(n)
+int ans = _abs(n);
 	_putchar(ans);
 	return (ans);
 }
