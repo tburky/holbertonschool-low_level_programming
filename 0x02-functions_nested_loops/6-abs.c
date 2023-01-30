@@ -16,6 +16,13 @@
 */
 int _abs(int n)
 {
-int ans = _abs(n);
-	return (ans);
+	if (n >= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		n = n * -1;
+		return (n);
+	}
 }
