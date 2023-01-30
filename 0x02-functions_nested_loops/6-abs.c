@@ -1,9 +1,16 @@
+/*
+* File 6-abs.c
+* Auth: Tanner Burkybile
+*/
+
 #include <stdio.h>
 #include "main.h"
+#include <math.h>
 
 /**
-* print_sign - Entry point
-* Return: Absolute value
+* _abs - print sign of number
+* @n: a set variable
+* Description: absolute value
 */
 int _abs(int n)
 {
