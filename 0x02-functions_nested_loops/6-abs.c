@@ -7,6 +7,6 @@
 */
 int _abs(int n)
 {
-abs(n) = ans;
+int abs(n) = ans;
 	_putchar (ans);
 }
