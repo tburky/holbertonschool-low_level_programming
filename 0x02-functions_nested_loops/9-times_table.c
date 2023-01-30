@@ -27,7 +27,7 @@ void times_table(void)
 
 			if (y == 0)
 			{
-				putchar('0');
+				_putchar('0');
 			}
 			else if (z < 10)
 			{
